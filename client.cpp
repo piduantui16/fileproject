@@ -88,7 +88,7 @@ int main()
         char sendbuff[128] = {0};
         strcpy(sendbuff,buff);
 
-        int i = 0;
+        int i = 0;//
         char * myargv[10] = {0};
         char * s = strtok(buff," ");
         while( s != NULL )
