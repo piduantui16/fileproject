@@ -3,7 +3,7 @@
 #include<signal.h>
 #include<iostream>
 #include"MYSQL.h"
-#define     ARGC    10
+#define     ARGC   10
 #define     READ_BUFF   4096
 
 void send_file(int c, char * name)
