@@ -120,5 +120,5 @@ bool updatmysql(char *MD5sum,char *filename,char *uname)
 		printf("file insert success!!\n");
 		mysql_close(&mysql);
 		return true;
-	}
+	}//
 }
